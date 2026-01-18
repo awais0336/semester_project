@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/fblogo"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fixify2"
+        android:layout_centerInParent="true"
+
+        />
+<TextView
+    android:id="@+id/madeby"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Made by"
+    android:layout_alignBottom="@id/fblogo"
+   android:layout_centerInParent="true"
+    android:paddingBottom="55dp"
+    android:layout_alignParentBottom="true"
+    android:textSize="14dp"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mussa Malik"
+  android:layout_alignBottom="@+id/madeby"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+      android:layout_marginBottom="35dp"
+        android:textSize="17dp"
+        android:textColor="@color/fbblue"
+        />
+
+
+
+</RelativeLayout>

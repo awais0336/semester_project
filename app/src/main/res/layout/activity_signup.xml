@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Signup"
+    >
+
+
+    <ImageView
+        android:paddingTop="60dp"
+        android:id="@+id/fblogo"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fixify2"
+        android:layout_centerInParent="true"
+        android:paddingBottom="500dp"
+
+        />
+   <EditText
+       android:id="@+id/fname"
+       android:layout_width="140dp"
+       android:layout_height="40dp"
+       android:hint="First Name"
+       android:background="@drawable/roundable"
+       android:paddingLeft="20dp"
+       android:layout_alignBottom="@+id/fblogo"
+       android:layout_marginBottom="420dp"
+       android:textColorHint="@color/gray"
+       android:layout_marginLeft="60dp"
+       android:textSize="15dp"
+
+
+       />
+    <EditText
+        android:id="@+id/lname"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:hint="Last Name"
+        android:background="@drawable/roundable"
+        android:paddingLeft="20dp"
+        android:layout_alignBottom="@+id/fblogo"
+        android:layout_toRightOf="@+id/fname"
+        android:layout_marginBottom="420dp"
+        android:textColorHint="@color/gray"
+        android:layout_marginLeft="8dp"
+        android:textSize="15dp"
+android:layout_centerHorizontal="true"
+        />
+
+    <EditText
+        android:hint="Email"
+        android:paddingLeft="20dp"
+        android:textSize="15dp"
+        android:textColorHint="@color/gray"
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="289dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/fname"
+        android:layout_marginLeft="14dp"
+        android:layout_marginBottom="-50dp"
+        android:background="@drawable/roundable"
+android:layout_centerHorizontal="true"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:layout_centerHorizontal="true"
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="289dp"
+        android:layout_height="40dp"
+        android:hint="Password"
+        android:paddingLeft="20dp"
+        android:textSize="15dp"
+        android:textColorHint="@color/gray"
+        android:background="@drawable/roundable"
+        android:layout_marginLeft="14dp"
+        android:inputType="textPassword"
+        android:layout_alignBottom="@+id/editTextTextEmailAddress"
+        android:layout_marginBottom="-50dp"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="289dp"
+        android:layout_height="48dp"
+        android:text="Sign Up"
+        android:layout_below="@+id/editTextTextPassword"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="@color/fbblue"
+        android:layout_centerInParent="true"
+        />
+
+    <TextView
+        android:id="@+id/or"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Or"
+        android:layout_alignBottom="@id/fblogo"
+        android:layout_centerInParent="true"
+        android:paddingBottom="60dp"
+        android:textSize="14dp"
+        android:layout_below="@+id/button"
+        android:textColor="@color/fbblue"
+        />
+
+
+    <TextView
+        android:id="@+id/madeby"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log In To Fixify"
+
+        android:layout_centerInParent="true"
+        android:paddingBottom="220dp"
+        android:textSize="14dp"
+      android:layout_alignBottom="@+id/or"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mussa | Hasaan"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:paddingBottom="40dp"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:fontFamily="cursive"
+        />
+
+
+</RelativeLayout>

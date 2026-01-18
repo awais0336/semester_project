@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1015356293926",
+    "project_id": "fixify-dc3d2",
+    "storage_bucket": "fixify-dc3d2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1015356293926:android:c33f61ca77d2ab3b07f7e7",
+        "android_client_info": {
+          "package_name": "com.mussa1.myfacebook"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiwhQA4YQxfz6zzGYyX3kYZe7RLB9yE-I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

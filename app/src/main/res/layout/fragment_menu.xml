@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu">
+
+
+    <ImageView
+
+        android:layout_marginTop="32dp"
+        android:id="@+id/profile_picture"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/fixify4"
+        android:contentDescription="Profile Picture"/>
+
+    <TextView
+        android:layout_toRightOf="@id/profile_picture"
+
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="John Doe"
+        android:textSize="18sp"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="6dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_toRightOf="@id/profile_picture"
+        android:id="@+id/user_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="john.doe@example.com"
+        android:textSize="14sp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center"/>
+
+
+    <Button
+        android:layout_below="@id/user_name"
+        android:layout_toRightOf="@id/profile_picture"
+        android:id="@+id/edit_profile_button"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Edit Profile"
+
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center"/>
+
+    <Button
+
+        android:layout_below="@id/edit_address_button"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/manageOrders"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:text="Manage Your Orders"
+
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"/>
+
+    <Button
+
+        android:layout_below="@id/manageOrders"
+
+        android:layout_centerHorizontal="true"
+        android:id="@+id/Manage"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:text="Manage added Services"
+
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"/>
+
+    <Button
+
+        android:layout_below="@id/Manage"
+
+        android:layout_centerHorizontal="true"
+        android:id="@+id/Manageloc"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:text="Manage Location Services"
+
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"/>
+
+    <Button
+
+        android:layout_marginTop="8dp"
+       android:layout_toRightOf="@id/edit_profile_button"
+     android:layout_below="@id/user_name"
+        android:id="@+id/edit_address_button"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_height="40dp"
+        android:text="Edit Address"/>
+
+    <Button
+
+        android:layout_below="@id/Manageloc"
+
+        android:layout_centerHorizontal="true"
+        android:id="@+id/Managepay"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:text="See payments Made"
+
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"/>
+
+
+    <Button
+
+        android:layout_below="@id/Managepay"
+
+        android:layout_centerHorizontal="true"
+        android:id="@+id/fav"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:text="  Favourites"
+
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"/>
+
+</RelativeLayout>
